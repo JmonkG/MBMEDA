@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Aleatorio">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAABAAAAAAAAAAAUAAQAgAAAAAAAAAAgAACAAEABA=</HashCode>
+      <FileName>aleatorio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Individuo">
+    <Position X="1" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAIIkIhAIAAAAkgGEAMQAQAgykABAABQAAAAAYAQAIg=</HashCode>
+      <FileName>individuo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mutar">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mutar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cruce">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAQgAAgAAAAAAgAAAAAAAAAAgAgACAAA=</HashCode>
+      <FileName>cruce.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Base">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAACCAAABAAjAIAAAAQBAAACAAEgAAAAAiAAAAAA=</HashCode>
+      <FileName>base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poblacion">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAQAAKAAIBgAAAAAAQAAEFAKAAgAgAAAAAACBAA=</HashCode>
+      <FileName>poblacion.h</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="pobladores" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Universo">
+    <Position X="8.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABICCAAKAAAVgEAEAwRICAAAJAAAACAQQgDAIAEAM=</HashCode>
+      <FileName>universo.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pob" />
+      <Field Name="b" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Param">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BCAIAAAAFAMJAgAEARIQgABAAAIABAAAASAAIABAAAI=</HashCode>
+      <FileName>param.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
